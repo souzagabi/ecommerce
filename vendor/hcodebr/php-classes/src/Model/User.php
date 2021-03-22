@@ -7,6 +7,13 @@
         const SESSION = "User";
         public static function login($login, $password){
             $sql = new Sql();
+//             $senha = password_hash("admin", PASSWORD_DEFAULT);
+//             $log   = "admin";
+//             $update = $sql->update("UPDATE tb_users SET deslogin = :LOGIN, despassword = :SENHA WHERE iduser = 3", array(
+//                 ":LOGIN"=>$log, "SENHA"=>$senha
+//             ));
+//             echo $update;
+// exit;
             $results = $sql->select("SELECT * FROM tb_users WHERE deslogin = :LOGIN", array(
                 ":LOGIN"=>$login
             ));
@@ -15,8 +22,8 @@
                 throw new \Exception("Usuário inexistente ou senha inválida", 1);
             }
             $data = $results[0];
-            echo $data["despassword"];exit;
-            if (password_verify($password, md5($data["despassword"])) === true) {
+            
+            if (password_verify($password, $data["despassword"]) === true) {
             //if ($password ===  $data["despassword"]) {
                 $user = new User;
                 $user->setData($data);
