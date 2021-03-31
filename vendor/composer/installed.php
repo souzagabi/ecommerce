@@ -6,8 +6,8 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'b199b2e6b441f1d0f6db9ed27dc6cc42ab221282',
-    'name' => 'souzagabi/ecommerce',
+    'reference' => 'fc57444e9a301388d86903663122ef3c76135074',
+    'name' => 'souzagabi/investimento',
   ),
   'versions' => 
   array (
@@ -38,14 +38,14 @@
       ),
       'reference' => '3e95c9abbc57a8f023ab4dacebcab9dae4d9f1f0',
     ),
-    'souzagabi/ecommerce' => 
+    'souzagabi/investimento' => 
     array (
       'pretty_version' => 'dev-master',
       'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => 'b199b2e6b441f1d0f6db9ed27dc6cc42ab221282',
+      'reference' => 'fc57444e9a301388d86903663122ef3c76135074',
     ),
   ),
 );

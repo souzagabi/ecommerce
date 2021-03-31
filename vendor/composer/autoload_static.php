@@ -16,7 +16,7 @@ class ComposerStaticInitba8c12a9b4e67c9a05c6197537f135c6
     public static $prefixDirsPsr4 = array (
         'Acao\\' => 
         array (
-            0 => __DIR__ . '/..' . '/hcodebr/php-classes/src',
+            0 => __DIR__ . '/..' . '/souzagabi/php-classes/src',
         ),
     );
 
