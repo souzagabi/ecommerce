@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'ab7645a3d4e987640aed79a4a25f932366fc87e0',
+    'reference' => 'b199b2e6b441f1d0f6db9ed27dc6cc42ab221282',
     'name' => 'souzagabi/ecommerce',
   ),
   'versions' => 
@@ -69,7 +69,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'ab7645a3d4e987640aed79a4a25f932366fc87e0',
+      'reference' => 'b199b2e6b441f1d0f6db9ed27dc6cc42ab221282',
     ),
   ),
 );

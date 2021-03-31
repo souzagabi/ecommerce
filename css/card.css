@@ -1,0 +1,24 @@
+/*==================== card0 =======================*/
+
+.container .card0 .card{
+     background-image: linear-gradient(-10deg, #3D515A, #fff, #3D515A);;
+     border-radius: 20px;
+     box-shadow: 0 2px 23px #08080842;
+}
+.container .card0 .card:hover{
+    box-shadow: 0 8px 30px #ec5d0aab;
+}
+.cartaz .card0 .card .card-body,.container .card0 .card .card-body {
+    padding: 0px !important;
+}
+.cards .container .card .mediaCard{
+    background: url("https://th.bing.com/th/id/Rf439915f41edd6a562aad54a3b258196?rik=rxlKpD1v8hEw3w&riu=http%3a%2f%2fhqcompanyescola.com.br%2fescola%2fgaleria%2fdestaque-cursos%2fdestaque-manga-anime.png&ehk=qW23VJWTDuKk2v%2bKkZ7L8xeqoIooUivXOnNXWldsrzs%3d&risl=&pid=ImgRaw") center/cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+}
+.container .card0 .card img, 
+.cartaz, .cartaz img, 
+.container .card0 .card{
+    border-radius: 20px;
+}

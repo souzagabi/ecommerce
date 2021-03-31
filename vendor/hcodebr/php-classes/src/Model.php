@@ -1,5 +1,5 @@
 <?php
-    namespace Hcode;
+    namespace Acao;
     class Model {
         private $values = [];
         public function __call($name, $args){
@@ -19,7 +19,12 @@
 
         public function setData($data = array()){
             foreach ($data as $key => $value) {
-                $this->{"set".$key}($value);
+                if ($value !== '') {
+                    $this->{"set".$key}($value);
+                } else
+                {
+                    $this->{"set".$key}(NULL);
+                }
             }
         }
 

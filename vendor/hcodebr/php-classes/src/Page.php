@@ -1,5 +1,5 @@
 <?php
-    namespace Hcode;
+    namespace Acao;
     use Rain\Tpl;
 
     class Page{
